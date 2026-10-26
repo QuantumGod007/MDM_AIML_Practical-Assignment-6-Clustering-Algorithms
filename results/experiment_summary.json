@@ -1,0 +1,20 @@
+{
+  "dataset": "UCI Wine Recognition (scikit-learn load_wine)",
+  "samples": 178,
+  "numeric_features": 13,
+  "reference_cultivar_counts": {
+    "0": 59,
+    "1": 71,
+    "2": 48
+  },
+  "normalization": "StandardScaler for all 13 features",
+  "selection_rule": "Highest full-sample silhouette among tuned complete-coverage models",
+  "recommended_model": "K-Means",
+  "recommended_parameters": "k=3",
+  "pca_two_component_variance": [
+    0.36198848099926334,
+    0.19207490257008938
+  ],
+  "note": "ARI used post hoc only; cultivar labels never used for selection or fitting.",
+  "dbscan_note": "Noise excluded from density metrics; compare coverage alongside silhouette."
+}
